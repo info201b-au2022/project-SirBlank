@@ -71,7 +71,7 @@ These data were collected by the Institute for Health Metrics and Evaluation (IH
 Alexander Carther, Kassandra Martinchek, Breno Braga, Signe-Mary McKernan, and Caleb Quakenbush (2022). *Debt in America* [Data set]. 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accessible from https://datacatalog.urban.org/dataset/debt-america-2022.
 
-Institute for Health Metrics and Evaluation (2022). *United States Mortality &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rates and Life Expectancy by County, Race, and Ethnicity 2000-2019* [Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set]. https://doi.org/10.6069/B15B-0S14.
+Institute for Health Metrics and Evaluation (2022). *United States Mortality Rates and Life Expectancy by County, Race, and Ethnicity 2000-2019* [Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set]. https://doi.org/10.6069/B15B-0S14.
 
 The Cecil G. Sheps Center for Health Services Research (2022). 183 Rural Hospital Closures since January 2005 [Data set]. Accessible
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;from https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/ 
