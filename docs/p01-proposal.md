@@ -32,26 +32,26 @@ For the past two years COVID-19 has ravaged communities across America. COVID-19
 
 ### Datasets:
 
-##### Rural Hospital Closures by Counties:
+#### Rural Hospital Closures by Counties:
 
 
-##### Medical Debt in America by Counties:
+#### Medical Debt in America by Counties:
 
 We chose to look at a dataset of average medical debt at the county levels because we wanted to know if one’s medical debt is a factor to rural hospital closures as we were speculating that hospitals cannot generate revenue if patients cannot afford or pay their medical bills.
 
 These data are collected by Alexander Carther, Kassandra Martinchek, Breno Braga, Signe-Mary McKernan, and Caleb Quakenbush, the creators of the project “Debt in America”. They started this project because they wanted to show the debt differences that can reinforce the wealth gap between white communities and communities of color. They collected data from major credit bureaus from February 2022 and US Census Bureau’s American Community Survey from 2015 to 2019. The data collection effort was funded by the Annie E. Casey Foundation and the Ford Foundation. The data is trustworthy as the Urban Institute is a highly respected nonprofit research organization. Communities of color are likely to benefit from the data as the dataset shed light on the wealth differences between white communities and communities of color. We obtained the data by searching about medical debt in America on Google.
 
-##### Healthcare Professional Shortages by Counties:
+#### Healthcare Professional Shortages by Counties:
 The data was collected by HRSA, Health Resources & Service Administration since 2006. HRSA is funded with annual appropriations of $13.3 billion in their fiscal year, 2022. The purpose of the data is to decide whether or not the area is a Health Professional Shortage Area (HPSA). More than 34 federal programs depend on this data collection of HPSA designations. They use the data in order to determine eligibility or even as a funding preference. From this, the areas that are HPSA will be benefited from the funds that are given based on the data. The data is trustworthy because not only the data itself is very recent but the HRSA is an agency of the U.S. Department of Health and Human Services which is an executive branch department of the U.S. federal government. We obtained the data through researching on Google, and we did credit the source of the data accordingly.
 
 
-##### Life Expectancy at Birth in America by Counties:
+#### Life Expectancy at Birth in America by Counties:
 
 We chose to look at the life expectancy at birth at the county level because we want to see if there is a difference in life expectancy between metro and nonmetro areas and to help identify the impact of living in a rural area to one’s overall health.
 
 These data were collected by the Institute for Health Metrics and Evaluation (IHME) from the National Center for Health Statistics’ 2000-2019 data (https://www.cdc.gov/nchs/fastats/deaths.htm) of population and deaths data in the United States. This was collected in 2019 for the purpose of estimating mortality rates and life expectancy at the county level. This data collection was funded by National Institute on Minority Health and Health Disparities (NIMHD), National Heart, Lung, and Blood Institute, National Institutes of Health (NIH), National Cancer Institute (NCI) (United States), National Institute on Aging (NIA), National Institutes of Health (NIH), National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS), and the National Institutes of Health (NIH). This data is likely to benefit the minority communities as the data provides insights to health differences between different communities. This data is trustworthy because the National Institute on Minority Health and Health Disparities is a government health institute. We obtained the data by searching on Google and we did credit the source of the data.
 
-##### Table of Datasets
+#### Table of Datasets
 |       | Rural Hospital Closures in America | Medical Debts in America | Health Professional Shortage | Life Expectancy at Birth|
 |:------|:----------------------------------:|:------------------------:|:----------------------------:|:-----------------------:|
 |Number of Observations|183|3137|3143|365940|
