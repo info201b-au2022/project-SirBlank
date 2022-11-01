@@ -3,9 +3,9 @@
 ### Code name: Project H.I.
 
 ### Authors:
-Sunghee Park: sxnghp@uw.edu
-Amber Wu: awu8@uw.edu
-Teerth Mehta: teertm@uw.edu
+Sunghee Park: sxnghp@uw.edu\
+Amber Wu: awu8@uw.edu\
+Teerth Mehta: teertm@uw.edu\
 Alex Cao: rcao1103@uw.edu
 
 ### Affiliation:
