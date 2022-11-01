@@ -29,13 +29,18 @@ The problem domain that this project aims to address is that of healthcare dispa
 #### Project Framing:
 In a perfect world, access to high quality healthcare would be a right. However, in the real world what we see is an unequal distribution of healthcare resources. This is where the data analysis housed within this project comes into play. We aim to understand what types of communities experience these disparities, what type of resources they lack, and the effect this lacking has on the healthcare of the residents of these communities.
 
-#### Human Values:
+#### Previous Work:
 
+#### Human Values:
+This project is dedicated to the wellness of other people, however, it's specifically dedicated to the human values of universal access and human dignity. We believe that data that affects one’s own health needs to be made available not just for the sake of transparency, but also for the sake of greater understanding. This means presenting data in a way that is understandable and approachable. We also believe that our project and problem domain are directly related to promoting human dignity, because if healthcare is a right, then as of now this right is being violated across America.
 
 #### Direct and Indirect Stakeholders:
 The direct stakeholders are people seeking medical assistance, health professionals working in hospitals, emergency healthcare responders, and hospitals. The indirect stakeholders are policymakers and the governments that determine the amount of funding and resources public hospitals receive.
 
 #### Possible Harms and Benefits:
+The benefits of displaying data on health equity in an accessible way include raising awareness of the overlooked issues that small, often rural communities face when taking control of their own healthcare. Another benefit of displaying data, relating to this subject, is the ability to identify relevant stakeholders in complex situations more easily and collaborate with them to produce evidence-based solutions (Pastorino et al., 2019).
+
+A possible harm is that people might assume that there is a causational relationship between these factors from this data analysis. This project also does not represent people’s experiences with public healthcare and the effectiveness of its treatments.
 
 
 
@@ -46,7 +51,7 @@ The direct stakeholders are people seeking medical assistance, health profession
 
 ### Datasets:
 
-##### Rural Hospital Closures by Counties:
+#### Rural Hospital Closures by Counties:
 We chose the data set of the rural hospital closures since January 2005 because it answers the question of where the hospital closures were happening in rural areas. The dataset was collected by Cecil G. Sheps Center for Health Services Research ever since 2005. They were collected in order to see facilities that can no longer provide healthcare services, and the facilities no longer provide in-patient care, but continue to provide some healthcare services. The data collection was not funded. From the data, people living in the rural areas may be benefited, since it sheds light on rural hospital closures. Also, anyone researching the topic of hospital closures would be benefited from the data. The data is considered credible because they get their data from the analysis of Centers for Medicare and Medicaid Services data, information exchange with the National Rural Health Association and the federal Office of Rural Health Policy. We obtained the data through Google searching about hospital closures, and the source of the data is credited.
 
 
@@ -56,7 +61,7 @@ We chose to look at a dataset of average medical debt at the county levels becau
 
 These data are collected by Alexander Carther, Kassandra Martinchek, Breno Braga, Signe-Mary McKernan, and Caleb Quakenbush, the creators of the project “Debt in America”. They started this project because they wanted to show the debt differences that can reinforce the wealth gap between white communities and communities of color. They collected data from major credit bureaus from February 2022 and US Census Bureau’s American Community Survey from 2015 to 2019. The data collection effort was funded by the Annie E. Casey Foundation and the Ford Foundation. The data is trustworthy as the Urban Institute is a highly respected nonprofit research organization. Communities of color are likely to benefit from the data as the dataset shed light on the wealth differences between white communities and communities of color. We obtained the data by searching about medical debt in America on Google.
 
-##### Healthcare Professional Shortages by Counties:
+#### Healthcare Professional Shortages by Counties:
 We chose the dataset on Health Professional Shortage Area in order to see where in the United States were struggling due to low medical healthcare staffing and were designated as HPSA, Health Professional shortage Area. The data was collected by HRSA, Health Resources & Service Administration, and has been collected since 2006, daily HRSA is funded with annual appropriations of $13.3 billion in their fiscal year, 2022.. They are used to decide whether or not the area is a HPSA. More than 34 federal programs depend on this data collection of HPSA designations. They use the data in order to determine eligibility or even as a funding preference.  From this, the areas that are HPSA will be benefited from the funds that are given based on the data. The data is trustworthy because not only the data itself is very recent but the HRSA is an agency of the U.S. Department of Health and Human Services which is an executive branch department of the U.S. federal government. We obtained the data through researching on Google, and we did credit the source of the data accordingly.
 
 
@@ -73,7 +78,7 @@ These data were collected by the Institute for Health Metrics and Evaluation (IH
 |Number of Observations|183|3137|3143|365940|
 |Number of Variables|16|16|6|17|
 
-##### Citations:
+#### Citations:
 Alexander Carther, Kassandra Martinchek, Breno Braga, Signe-Mary McKernan, and Caleb Quakenbush (2022). *Debt in America* [Data set]. Accessible from https://datacatalog.urban.org/dataset/debt-america-2022.
 
 Health Resources & Service Administration Data Warehouse (2022). *Health Professional Shortage Areas_ Primary Care, by County* [Data set]. Accessible from https://data.hrsa.gov//DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv
@@ -95,9 +100,15 @@ Thank you Ishita for answering our clarifying questions.
 ### References:
 Alexander Carther, Kassandra Martinchek, Breno Braga, Signe-Mary McKernan, and Caleb Quakenbush (2022). *Debt in America* [Data set]. Accessible from https://datacatalog.urban.org/dataset/debt-america-2022.
 
+Fitzhugh Mullan Institute for Health Workforce Equity. (n.d.). Health Workforce for Health Equity : Medical Care. LWW. Retrieved October 31, 2022, from https://journals.lww.com/lww-medicalcare/fulltext/2021/10001/health_workforce_for_health_equity.2.aspx
+
 Health Resources & Service Administration Data Warehouse (2022). *Health Professional Shortage Areas_ Primary Care, by County* [Data set]. Accessible from https://data.hrsa.gov//DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv
 
 Institute for Health Metrics and Evaluation (2022). *United States Mortality Rates and Life Expectancy by County, Race, and Ethnicity 2000-2019* [Data set]. https://doi.org/10.6069/B15B-0S14.
+
+Levey, N. (2022, October 27). Why Black Americans are more likely to be saddled with medical debt. NPR. Retrieved October 31, 2022, from https://www.npr.org/sections/health-shots/2022/10/27/1131984451/medical-debt-racial-inequities
+
+Pastorino, R., De Vito, C., Migliara, G., Glocker, K., Binenbaum, I., Ricciardi, W., & Boccia, S. (2019, October 1). Benefits and challenges of Big Data in Healthcare: An overview of the European initiatives. European journal of public health. Retrieved October 31, 2022, from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6859509/
 
 The Cecil G. Sheps Center for Health Services Research (2022). *183 Rural Hospital Closures since January 2005* [Data set]. Accessible from https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/
 
