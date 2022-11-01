@@ -1,6 +1,6 @@
-# Title of your Project: Project Proposal
+# The Effect of Unequal Healthcare Resource Distribution on Life Expectancy: A Data Driven Approach
 
-### Code name: Project H.I.
+### Code name: Oglala Lakota
 
 ### Authors:
 Sunghee Park: sxnghp@uw.edu, Amber Wu: awu8@uw.edu, Teerth Mehta: teertm@uw.edu, Alex Cao: rcao1103@uw.edu
@@ -14,22 +14,37 @@ Autumn 2022
 ### Abstract:
 We are concerned with the relationships between hospital closures, medical debt, health professional shortages, and life expectancy, with a specific focus on how healthcare resource distribution affects healthcare outcomes. This is important because without clearly understanding where healthcare resources need to be reinforced and where health inequities are the most severe, we will not be able to take the first steps towards a healthcare system that works for all Americans. To address this concern, we intend to understand geographical differences in each of the above mentioned variables (hospital closures, etc.) and unearth statistical trends between variables that in turn help us draw conclusions in regards to the ways in which the different variables contribute to health outcomes across different geographies.
 
-
 ### Keywords:
-Hospital closures; medical debts; health professional shortages; life expectancy; health inequity.
+*Hospital closures*; *medical debts*; *health professional shortages*; *life expectancy*; *health inequity*.
 
 ### Introduction:
 For the past two years COVID-19 has ravaged communities across America. COVID-19 has highlighted the many short-comings of the American healthcare system, but none more so than the disparities Americans of different walks of life face when interacting with the healthcare system. However these disparities are not new at all, they have had an extensive history within the healthcare system and even after numerous efforts to understand these disparities and address them, they continue to remain one of the most pervasive problems that face the American healthcare system. One of the reasons this problem is so pervasive is because of the many different factors that affect an individual’s health, from the zip code they live in to the amount of debt they live in to the number of hospitals near them. Understanding how much these factors contribute to an individual’s health is a small step to addressing these inequities and that is exactly what this project is: a small step in addressing the inequities in healthcare by visualizing and connecting data.
 
 ### Problem Domain:
+The problem domain that this project aims to address is that of healthcare disparities. While there has been much research that has already been conducted on this very problem domain, the way our project aims to address this is by specifically looking at how non-clinical components of a person’s life, things like their finances, the number of doctors and hospitals in their area, and the rurality of their residence end up affecting their overall health.
+
+#### Project Framing:
+In a perfect world, access to high quality healthcare would be a right. However, in the real world what we see is an unequal distribution of healthcare resources. This is where the data analysis housed within this project comes into play. We aim to understand what types of communities experience these disparities, what type of resources they lack, and the effect this lacking has on the healthcare of the residents of these communities.
+
+#### Human Values:
+
+
+#### Direct and Indirect Stakeholders:
+The direct stakeholders are people seeking medical assistance, health professionals working in hospitals, emergency healthcare responders, and hospitals. The indirect stakeholders are policymakers and the governments that determine the amount of funding and resources public hospitals receive.
+
+#### Possible Harms and Benefits:
+
 
 
 ### Research Questions:
-
+1. What is the relationship between counties where hospitals close and life expectancy? This question helps us determine how hospital closures in counties can directly impact one's health and access to public healthcare.
+2. What is the relationship between medical debt and health indicators? Are people who are already struggling with healthcare more likely to also struggle with the finances to pay for their healthcare? This question helps us determine if one's financial status can impact their own health and access to public healthcare.
+3. What is the relationship between low health indicators and health professional shortages? This question helps us understand if the lack of health professionals in an area affects people's overall life expectancy and their access to public healthcare.
 
 ### Datasets:
 
 ##### Rural Hospital Closures by Counties:
+We chose the data set of the rural hospital closures since January 2005 because it answers the question of where the hospital closures were happening in rural areas. The dataset was collected by Cecil G. Sheps Center for Health Services Research ever since 2005. They were collected in order to see facilities that can no longer provide healthcare services, and the facilities no longer provide in-patient care, but continue to provide some healthcare services. The data collection was not funded. From the data, people living in the rural areas may be benefited, since it sheds light on rural hospital closures. Also, anyone researching the topic of hospital closures would be benefited from the data. The data is considered credible because they get their data from the analysis of Centers for Medicare and Medicaid Services data, information exchange with the National Rural Health Association and the federal Office of Rural Health Policy. We obtained the data through Google searching about hospital closures, and the source of the data is credited.
 
 
 ##### Medical Debt in America by Counties:
@@ -39,7 +54,8 @@ We chose to look at a dataset of average medical debt at the county levels becau
 These data are collected by Alexander Carther, Kassandra Martinchek, Breno Braga, Signe-Mary McKernan, and Caleb Quakenbush, the creators of the project “Debt in America”. They started this project because they wanted to show the debt differences that can reinforce the wealth gap between white communities and communities of color. They collected data from major credit bureaus from February 2022 and US Census Bureau’s American Community Survey from 2015 to 2019. The data collection effort was funded by the Annie E. Casey Foundation and the Ford Foundation. The data is trustworthy as the Urban Institute is a highly respected nonprofit research organization. Communities of color are likely to benefit from the data as the dataset shed light on the wealth differences between white communities and communities of color. We obtained the data by searching about medical debt in America on Google.
 
 ##### Healthcare Professional Shortages by Counties:
-The data was collected by HRSA, Health Resources & Service Administration since 2006. HRSA is funded with annual appropriations of $13.3 billion in their fiscal year, 2022. The purpose of the data is to decide whether or not the area is a Health Professional Shortage Area (HPSA). More than 34 federal programs depend on this data collection of HPSA designations. They use the data in order to determine eligibility or even as a funding preference. From this, the areas that are HPSA will be benefited from the funds that are given based on the data. The data is trustworthy because not only the data itself is very recent but the HRSA is an agency of the U.S. Department of Health and Human Services which is an executive branch department of the U.S. federal government. We obtained the data through researching on Google, and we did credit the source of the data accordingly.
+We chose the dataset on Health Professional Shortage Area in order to see where in the United States were struggling due to low medical healthcare staffing and were designated as HPSA, Health Professional shortage Area. The data was collected by HRSA, Health Resources & Service Administration, and has been collected since 2006, daily HRSA is funded with annual appropriations of $13.3 billion in their fiscal year, 2022.. They are used to decide whether or not the area is a HPSA. More than 34 federal programs depend on this data collection of HPSA designations. They use the data in order to determine eligibility or even as a funding preference.  From this, the areas that are HPSA will be benefited from the funds that are given based on the data. The data is trustworthy because not only the data itself is very recent but the HRSA is an agency of the U.S. Department of Health and Human Services which is an executive branch department of the U.S. federal government. We obtained the data through researching on Google, and we did credit the source of the data accordingly.
+
 
 
 ##### Life Expectancy at Birth in America by Counties:
@@ -52,21 +68,35 @@ These data were collected by the Institute for Health Metrics and Evaluation (IH
 |       | Rural Hospital Closures in America | Medical Debts in America | Health Professional Shortage | Life Expectancy at Birth|
 |:------|:----------------------------------:|:------------------------:|:----------------------------:|:-----------------------:|
 |Number of Observations|183|3137|3143|365940|
-|Number of Variables|11|16|6|17|
+|Number of Variables|16|16|6|17|
+
+##### Citations:
+Alexander Carther, Kassandra Martinchek, Breno Braga, Signe-Mary McKernan, and Caleb Quakenbush (2022). *Debt in America* [Data set]. Accessible from https://datacatalog.urban.org/dataset/debt-america-2022.
+
+Health Resources & Service Administration Data Warehouse (2022). Health Professional Shortage Areas_ Primary Care, by County [Data set]. Accessible from https://data.hrsa.gov//DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv
+
+Institute for Health Metrics and Evaluation (2022). *United States Mortality Rates and Life Expectancy by County, Race, and Ethnicity 2000-2019* [Data set]. https://doi.org/10.6069/B15B-0S14.
+
+The Cecil G. Sheps Center for Health Services Research (2022). 183 Rural Hospital Closures since January 2005 [Data set]. Accessible from https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/
 
 
 ### Expected Implications:
-
+If our research questions are answered, this project will develop valid and reliable evidence that establishes the correlation between an individual’s health and healthcare resource distribution to help policymakers and governments better allocate funding and resources to the public healthcare system. If the datasets demonstrate a relationship between hospital closures and one’s life expectancy in the rural areas, policymakers will need to seriously consider and improve rural areas’ access to public healthcare. Policymakers will also need to find a solution to alleviate the medical debt for those who are struggling financially and have low health indicators. To combat rural hospital closures and health professional shortages, policymakers should also consider providing additional funding to rural hospitals to ensure that they have sufficient number of staffs to respond to patients.
 
 ### Limitations:
-
+There are a few limitations we faced during different phases of our projects so far, and there are also some limitations we figure out that could potentially become challenging for our group. One limitation on our datasets, is that in debt in America dataset, it does not include the information about the race, and is only based on the racial makeup of zip codes within the area. For example, if 60 percent of the community were white, the population in the zip code would be considered white and vice versa. Another limitation is the strength of the correlation we mention in our research questions. It’s hard to demonstrate the relationship between Debt owed by Americans and hospital closure scientifically because there could be unknown variables that affect the outcome.
 
 ### Acknowledgements:
-
+Thank you Ishita for answering our clarifying questions.
 
 ### References:
-Alexander Carther, Kassandra Martinchek, Breno Braga, Signe-Mary McKernan, and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Caleb Quakenbush (2022). *Debt in America* [Data set]. Accessible from &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://datacatalog.urban.org/dataset/debt-america-2022.
+Alexander Carther, Kassandra Martinchek, Breno Braga, Signe-Mary McKernan, and Caleb Quakenbush (2022). *Debt in America* [Data set]. Accessible from https://datacatalog.urban.org/dataset/debt-america-2022.
 
-Institute for Health Metrics and Evaluation (2022). *United States Mortality &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rates and Life Expectancy by County, Race, and Ethnicity 2000-2019* [Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set]. https://doi.org/10.6069/B15B-0S14.
+Health Resources & Service Administration Data Warehouse (2022). Health Professional Shortage Areas_ Primary Care, by County [Data set]. Accessible from https://data.hrsa.gov//DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv
+
+Institute for Health Metrics and Evaluation (2022). *United States Mortality Rates and Life Expectancy by County, Race, and Ethnicity 2000-2019* [Data set]. https://doi.org/10.6069/B15B-0S14.
+
+The Cecil G. Sheps Center for Health Services Research (2022). 183 Rural Hospital Closures since January 2005 [Data set]. Accessible from https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/
+
 
 ### Appendix A - Questions:
