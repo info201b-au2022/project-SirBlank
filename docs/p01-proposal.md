@@ -72,9 +72,9 @@ Alexander Carther, Kassandra Martinchek, Breno Braga, Signe-Mary McKernan, and C
 
 Institute for Health Metrics and Evaluation (2022). *United States Mortality Rates and Life Expectancy by County, Race, and Ethnicity 2000-2019* [Data set]. https://doi.org/10.6069/B15B-0S14.
 
-The Cecil G. Sheps Center for Health Services Research (2022). 183 Rural Hospital Closures since January 2005 [Data set]. Accessible from https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/ 
+The Cecil G. Sheps Center for Health Services Research (2022). *183 Rural Hospital Closures since January 2005* [Data set]. Accessible from https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/ 
 
-Health Resources & Service Administration Data Warehouse (2022). Health Professional Shortage Areas_ Primary Care, by County [Data set]. Accessible from https://data.hrsa.gov//DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv
+Health Resources & Service Administration Data Warehouse (2022). *Health Professional Shortage Areas_ Primary Care, by County* [Data set]. Accessible from https://data.hrsa.gov//DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv
 
 
 ### Appendix A - Questions:
