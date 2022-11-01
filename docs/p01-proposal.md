@@ -75,6 +75,7 @@ Institute for Health Metrics and Evaluation (2022). *United States Mortality &nb
 The Cecil G. Sheps Center for Health Services Research (2022). 183 Rural Hospital Closures since January 2005 [Data set]. Accessible
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;from https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/ 
 
+Health Resources & Service Administration Data Warehouse (2022). Health Professional Shortage Areas_ Primary Care, by County [Data set]. Accessible from https://data.hrsa.gov//DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv
 
 
 ### Appendix A - Questions:
