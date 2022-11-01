@@ -3,7 +3,10 @@
 ### Code name: Oglala Lakota
 
 ### Authors:
-Sunghee Park: sxnghp@uw.edu, Amber Wu: awu8@uw.edu, Teerth Mehta: teertm@uw.edu, Alex Cao: rcao1103@uw.edu
+Sunghee Park: sxnghp@uw.edu\
+Amber Wu: awu8@uw.edu\
+Teerth Mehta: teertm@uw.edu\
+Alex Cao: rcao1103@uw.edu
 
 ### Affiliation:
 INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
@@ -47,7 +50,7 @@ The direct stakeholders are people seeking medical assistance, health profession
 We chose the data set of the rural hospital closures since January 2005 because it answers the question of where the hospital closures were happening in rural areas. The dataset was collected by Cecil G. Sheps Center for Health Services Research ever since 2005. They were collected in order to see facilities that can no longer provide healthcare services, and the facilities no longer provide in-patient care, but continue to provide some healthcare services. The data collection was not funded. From the data, people living in the rural areas may be benefited, since it sheds light on rural hospital closures. Also, anyone researching the topic of hospital closures would be benefited from the data. The data is considered credible because they get their data from the analysis of Centers for Medicare and Medicaid Services data, information exchange with the National Rural Health Association and the federal Office of Rural Health Policy. We obtained the data through Google searching about hospital closures, and the source of the data is credited.
 
 
-##### Medical Debt in America by Counties:
+#### Medical Debt in America by Counties:
 
 We chose to look at a dataset of average medical debt at the county levels because we wanted to know if one’s medical debt is a factor to rural hospital closures as we were speculating that hospitals cannot generate revenue if patients cannot afford or pay their medical bills.
 
@@ -58,13 +61,13 @@ We chose the dataset on Health Professional Shortage Area in order to see where 
 
 
 
-##### Life Expectancy at Birth in America by Counties:
+#### Life Expectancy at Birth in America by Counties:
 
 We chose to look at the life expectancy at birth at the county level because we want to see if there is a difference in life expectancy between metro and nonmetro areas and to help identify the impact of living in a rural area to one’s overall health.
 
 These data were collected by the Institute for Health Metrics and Evaluation (IHME) from the National Center for Health Statistics’ 2000-2019 data (https://www.cdc.gov/nchs/fastats/deaths.htm) of population and deaths data in the United States. This was collected in 2019 for the purpose of estimating mortality rates and life expectancy at the county level. This data collection was funded by National Institute on Minority Health and Health Disparities (NIMHD), National Heart, Lung, and Blood Institute, National Institutes of Health (NIH), National Cancer Institute (NCI) (United States), National Institute on Aging (NIA), National Institutes of Health (NIH), National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS), and the National Institutes of Health (NIH). This data is likely to benefit the minority communities as the data provides insights to health differences between different communities. This data is trustworthy because the National Institute on Minority Health and Health Disparities is a government health institute. We obtained the data by searching on Google and we did credit the source of the data.
 
-##### Table of Datasets
+#### Table of Datasets
 |       | Rural Hospital Closures in America | Medical Debts in America | Health Professional Shortage | Life Expectancy at Birth|
 |:------|:----------------------------------:|:------------------------:|:----------------------------:|:-----------------------:|
 |Number of Observations|183|3137|3143|365940|
@@ -73,11 +76,11 @@ These data were collected by the Institute for Health Metrics and Evaluation (IH
 ##### Citations:
 Alexander Carther, Kassandra Martinchek, Breno Braga, Signe-Mary McKernan, and Caleb Quakenbush (2022). *Debt in America* [Data set]. Accessible from https://datacatalog.urban.org/dataset/debt-america-2022.
 
-Health Resources & Service Administration Data Warehouse (2022). Health Professional Shortage Areas_ Primary Care, by County [Data set]. Accessible from https://data.hrsa.gov//DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv
+Health Resources & Service Administration Data Warehouse (2022). *Health Professional Shortage Areas_ Primary Care, by County* [Data set]. Accessible from https://data.hrsa.gov//DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv
 
 Institute for Health Metrics and Evaluation (2022). *United States Mortality Rates and Life Expectancy by County, Race, and Ethnicity 2000-2019* [Data set]. https://doi.org/10.6069/B15B-0S14.
 
-The Cecil G. Sheps Center for Health Services Research (2022). 183 Rural Hospital Closures since January 2005 [Data set]. Accessible from https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/
+The Cecil G. Sheps Center for Health Services Research (2022). *183 Rural Hospital Closures since January 2005* [Data set]. Accessible from https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/
 
 
 ### Expected Implications:
@@ -92,11 +95,13 @@ Thank you Ishita for answering our clarifying questions.
 ### References:
 Alexander Carther, Kassandra Martinchek, Breno Braga, Signe-Mary McKernan, and Caleb Quakenbush (2022). *Debt in America* [Data set]. Accessible from https://datacatalog.urban.org/dataset/debt-america-2022.
 
-Health Resources & Service Administration Data Warehouse (2022). Health Professional Shortage Areas_ Primary Care, by County [Data set]. Accessible from https://data.hrsa.gov//DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv
+Health Resources & Service Administration Data Warehouse (2022). *Health Professional Shortage Areas_ Primary Care, by County* [Data set]. Accessible from https://data.hrsa.gov//DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv
 
 Institute for Health Metrics and Evaluation (2022). *United States Mortality Rates and Life Expectancy by County, Race, and Ethnicity 2000-2019* [Data set]. https://doi.org/10.6069/B15B-0S14.
 
-The Cecil G. Sheps Center for Health Services Research (2022). 183 Rural Hospital Closures since January 2005 [Data set]. Accessible from https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/
+The Cecil G. Sheps Center for Health Services Research (2022). *183 Rural Hospital Closures since January 2005* [Data set]. Accessible from https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/
+
+
 
 
 ### Appendix A - Questions:
