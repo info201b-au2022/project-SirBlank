@@ -47,7 +47,7 @@ A possible harm is that people might assume that there is a causational relation
 
 ### Research Questions:
 1. What is the relationship between counties where hospitals close and life expectancy? This question helps us determine how hospital closures in counties can directly impact one's health and access to public healthcare.
-2. What is the relationship between medical debt and health indicators? Are people who are already struggling with healthcare more likely to also struggle with the finances to pay for their healthcare? This question helps us determine if one's financial status can impact their own health and access to public healthcare.
+2. Is there a difference between metro and non-metro medical debt? If so how significant is it? This question helps us understand, quantify, and visualize how drastic and far reaching health inequities between rural and urban areas can be.
 3. What is the relationship between low health indicators and health professional shortages? This question helps us understand if the lack of health professionals in an area affects people's overall life expectancy and their access to public healthcare.
 
 ### Datasets:
