@@ -23,7 +23,7 @@ nonmetro_hpsap <- metro_nonmetro_hpsap %>%
 pie_nonmetro_data <- data.frame(
   group = nonmetro_hpsap$value,
   value = nonmetro_hpsap$proportion,
-   labels = paste(round(nonmetro_hpsap$proportion, 2), "%")
+  labels = paste(round(nonmetro_hpsap$proportion, 2), "%")
 )
 
 chart_3_nonmetro <- ggplot(pie_nonmetro_data, aes(x="", y = value, fill = group)) +
