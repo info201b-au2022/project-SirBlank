@@ -32,8 +32,9 @@ source("../source/B3_Aggregate_Table_Script.r")
 &nbsp;
 &nbsp;
 
-<div align="center">
-### __Top Ten Counties with Highest Percentage of Medical Debt__
+
+<center> <h3> __Top Ten Counties in the US with Highest Percentage of Medical Debt in 2022__ <h3> </center>
+
 
 &nbsp;
 
@@ -43,7 +44,7 @@ source("../source/B3_Aggregate_Table_Script.r")
 medical_debt_table_10 <- medical_debt_DT
 knitr::kable(medical_debt_table_10, format = "pipe")
 ```
-
+This table is grouped by the ten highest percentage of medical debt. Greene County, a non-metropolitan county, in North Carolina has the highest share with medical debt of 43.8% in the United States. The table shows that 9 out of 10 counties with highest percentage of medical debt are non-metropolitan counties. We also noticed that all of the counties in the table are located in Southern or Eastern United States.
 
 ## ABOUT THIS FILE: 
 
