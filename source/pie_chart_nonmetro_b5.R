@@ -22,13 +22,14 @@ nonmetro_hpsap <- metro_nonmetro_hpsap %>%
 
 pie_nonmetro_data <- data.frame(
   group = nonmetro_hpsap$value,
-  value = nonmetro_hpsap$proportion
+  value = nonmetro_hpsap$proportion,
+   labels = paste(round(nonmetro_hpsap$proportion, 2), "%")
 )
 
 chart_3_nonmetro <- ggplot(pie_nonmetro_data, aes(x="", y = value, fill = group)) +
   geom_bar(stat="identity", width=1, color="white") +
   ggtitle("Health Professional Shortage Area in Nonmetropolitan") +
-  geom_text(aes(y=ypos, label = paste(value, "%"), color = "white", size = 6)) +
+  geom_text(aes(label = labels), position = position_stack(vjust = 0.5)) +
   coord_polar("y", start = 0) +
   theme_void()
 
