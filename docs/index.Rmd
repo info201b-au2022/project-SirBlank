@@ -45,13 +45,15 @@ source("../source/medical_debt_analysis_b4.R")
 medical_debt_table_10 <- medical_debt_DT
 knitr::kable(medical_debt_table_10, format = "pipe")
 ```
-This table is grouped by the ten highest percentage of medical debt. Greene County, a non-metropolitan county, in North Carolina has the highest share with medical debt of 43.8% in the United States. The table shows that 9 out of 10 counties with highest percentage of medical debt are non-metropolitan counties. We also noticed that all of the counties in the table are located in Southern or Eastern United States.
+This table is grouped by the ten highest percentage of medical debt. Greene County, a non-metropolitan county, in North Carolina has the highest share with medical debt of 43.836% in the United States. The table shows that 9 out of 10 counties with highest percentage of medical debt are non-metropolitan counties. We also noticed that all of the counties in the table are located in Southern or Eastern United States. We chose this table because we wanted to test the strength of the relationship between medical debts and the population of where one lives.
   
 &nbsp;
 &nbsp;
 
-## Chart 1: Average Medical Debt in Metro and Non-Metro Areas
+## Chart 1: Average Medical Debt in Metro and Non-Metropolitan Areas
 ```{r, echo = FALSE}
 disp_med_debt
 ```
+This bar chart is intended to clearly help visualize the disparities and the significance of the differences in the financial situation of patients in different county designations, metropolitan or non metropolitan. As we can see in the above bar chart metropolitan areas clearly have lower median amounts of medical debt, lower by approximately 100 dollars. Even though we see a greater median medical debt in non-metropolitan areas, both metropolitan and non-metropolitan counties have fairly high medical debts at 707.90 and 804.23 dollars respectively. This gives us two main insights, first that healthcare is expensive everywhere and second that healthcare in non-metropolitan areas tends to weigh more heavily on the patients in those counties.
 
+## Chart 2: Proportion of Counties with Health Professional Shortages in Metropolitan and Non-Metropolitan Areas
