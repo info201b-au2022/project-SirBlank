@@ -12,19 +12,7 @@ output: html_document
 ## Introduction
 
 
-## Summary
-```{r, echo = FALSE}
-number_of_metro_counties <- summary_info[1]
-number_of_nonmetro_counties <- summary_info[2]
-average_medical_debt_metro <- summary_info[3]
-average_medical_debt_nonmetro <- summary_info[4]
-number_metro_counties_full_health_professional_shortage <- summary_info[6]
-number_nonmetro_counties_full_health_professional_shortage <- summary_info[7]
-avgerage_metro_life_expectancy <- summary_info[8]
-avgerage_nonmetro_life_expectancy <- summary_info[9]
 
-```
-In the U.S., there are `r number_of_metro_counties` metropolitan counties and `r number_of_nonmetro_counties` non-metropolitan counties. On average, `r average_medical_debt_metro` percent of people in metropolitan counties have medical debt and `r average_medical_debt_metro` percent of people in non-metropolitan counties have medical debt. A total of `r number_metro_counties_full_health_professional_shortage` metropolitan counties is experiencing a full health professional shortage and a total of `r number_nonmetro_counties_full_health_professional_shortage` non-metropolitan counties is experiencing a full health professional shortage. In metropolitan counties, people have an average life expectancy of `r avgerage_metro_life_expectancy` years. In non-metropolitan counties, people have an average life expectancy of `r avgerage_nonmetro_life_expectancy`years.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -43,6 +31,20 @@ source("../source/life_expectancy_boxplot_b6.R")
 
 # data_access_test()
 ```
+## Summary
+```{r, echo = FALSE}
+number_of_metro_counties <- summary_info[1]
+number_of_nonmetro_counties <- summary_info[2]
+average_medical_debt_metro <- summary_info[3]
+average_medical_debt_nonmetro <- summary_info[4]
+number_metro_counties_full_health_professional_shortage <- summary_info[6]
+number_nonmetro_counties_full_health_professional_shortage <- summary_info[7]
+avgerage_metro_life_expectancy <- summary_info[8]
+avgerage_nonmetro_life_expectancy <- summary_info[9]
+
+```
+In the U.S., there are `r number_of_metro_counties` metropolitan counties and `r number_of_nonmetro_counties` non-metropolitan counties. On average, `r average_medical_debt_metro` percent of people in metropolitan counties have medical debt and `r average_medical_debt_metro` percent of people in non-metropolitan counties have medical debt. A total of `r number_metro_counties_full_health_professional_shortage` metropolitan counties is experiencing a full health professional shortage and a total of `r number_nonmetro_counties_full_health_professional_shortage` non-metropolitan counties is experiencing a full health professional shortage. In metropolitan counties, people have an average life expectancy of `r avgerage_metro_life_expectancy` years. In non-metropolitan counties, people have an average life expectancy of `r avgerage_nonmetro_life_expectancy`years.
+
 
 ## Table
 
