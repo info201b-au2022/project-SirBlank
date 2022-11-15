@@ -23,7 +23,7 @@ metro_hpsap <- metro_nonmetro_hpsap %>%
 
 pie_metro_data <- data.frame(
   group = metro_hpsap$value,
-  value = metro_hpsap$proportion
+  value = metro_hpsap$proportion,
   labels = paste(round(metro_hpsap$proportion, 2), "%")
 )
 
