@@ -48,7 +48,7 @@ A possible harm is that people might assume that there is a causational relation
 ### Research Questions:
 1. What is the relationship between counties where hospitals close and life expectancy? This question helps us determine how hospital closures in counties can directly impact one's health and access to public healthcare.
 2. Is there a difference between metro and non-metro medical debt? If so how significant is it? This question helps us understand, quantify, and visualize how drastic and far reaching health inequities between rural and urban areas can be.
-3. What is the relationship between low health indicators and health professional shortages? This question helps us understand if the lack of health professionals in an area affects people's overall life expectancy and their access to public healthcare.
+3. How do metropolitan counties compare to nonmetropolitan counties in the United States in regards to HPSA, Health Professional Shortage Area? This question helps us understand if the county designation has an effect in their health professional shortage area status.
 
 ### Datasets:
 
