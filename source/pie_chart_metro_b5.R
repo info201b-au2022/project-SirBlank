@@ -30,6 +30,7 @@ pie_metro_data <- data.frame(
 chart_3_metro <- ggplot(pie_metro_data, aes(x="", y = value, fill = group)) +
   geom_bar(stat="identity", width=1, color="white") +
   coord_polar("y", start = 0) + 
+  ggtitle("Health Professional Shortage Area in Metropolitan") +
   geom_text(aes(label = labels), position = position_stack(vjust = 0.5)) +
   theme_void()
 
