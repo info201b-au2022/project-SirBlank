@@ -104,14 +104,14 @@ knitr::opts_chunk$set(echo = FALSE)
 # Example 1: Note relative path, which can be read: Up one
 # directory(..), down into source (/source), and 
 # then "source" an R file (data_access.R)
-source("../source/summary_information_script_b.2.R")
-source("../source/aggregate_table_script_b.3.R")
-source("../source/medical_debt_analysis_b4.R")
-source("../source/pie_chart_metro_b5.R")
-source("../source/pie_chart_nonmetro_b5.R")
-source("../source/life_expectancy_boxplot_b6.R")
+source("https://raw.githubusercontent.com/info201b-au2022/project-SirBlank/main/source/summary_information_script_b.2.R")
+source("https://raw.githubusercontent.com/info201b-au2022/project-SirBlank/main/source/aggregate_table_script_b.3.R")
+source("https://raw.githubusercontent.com/info201b-au2022/project-SirBlank/main/source/medical_debt_analysis_b4.R")
+source("https://raw.githubusercontent.com/info201b-au2022/project-SirBlank/main/source/pie_chart_metro_b5.R")
+source("https://raw.githubusercontent.com/info201b-au2022/project-SirBlank/main/source/pie_chart_nonmetro_b5.R")
+source("https://raw.githubusercontent.com/info201b-au2022/project-SirBlank/main/source/life_expectancy_boxplot_b6.R")
 
-# data_access_test()
+
 ```
 ### Summary
 ```{r, echo = FALSE}
