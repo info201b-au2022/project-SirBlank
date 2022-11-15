@@ -25,7 +25,8 @@ pie_nonmetro_data <- data.frame(
   value = nonmetro_hpsap$proportion
 )
 
-chart_3_metro <- ggplot(pie_nonmetro_data, aes(x="", y = value, fill = group)) +
+chart_3_nonmetro <- ggplot(pie_nonmetro_data, aes(x="", y = value, fill = group)) +
   geom_bar(stat="identity", width=1, color="white") +
+  ggtitle("Health Professional Shortage Area in Nonmetropolitan") +
   coord_polar("y", start = 0) +
   theme_void()
