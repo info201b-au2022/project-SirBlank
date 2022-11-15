@@ -58,10 +58,11 @@ disp_med_debt
 ```
 &nbsp
 This bar chart is intended to clearly help visualize the disparities and the significance of the differences in the financial situation of patients in different county designations, metropolitan or non metropolitan. As we can see in the above bar chart metropolitan areas clearly have lower median amounts of medical debt, lower by approximately 100 dollars. Even though we see a greater median medical debt in non-metropolitan areas, both metropolitan and non-metropolitan counties have fairly high medical debts at 707.90 and 804.23 dollars respectively. This gives us two main insights, first that healthcare is expensive everywhere and second that healthcare in non-metropolitan areas tends to weigh more heavily on the patients in those counties.
+ 
+&nbsp
+&nbsp
 
-## Chart 2: Proportion of Counties with Health Professional Shortages in Metropolitan and Non-Metropolitan Areas
-  
-## Chart 3: Health Professional Shortage Area in Metropolitan and Non-metropolitan Areas
+## Chart 2: Health Professional Shortage Area in Metropolitan and Non-metropolitan Areas
 ```{r, echo = FALSE}
 chart_3_metro
 chart_3_nonmetro
