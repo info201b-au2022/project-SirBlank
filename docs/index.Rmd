@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = FALSE)
 # directory(..), down into source (/source), and 
 # then "source" an R file (data_access.R)
 source("../source/data_access.R")
-source("../source/B3_Aggregate_Table_Script.r")
+source("../source/aggregate_table_script_b.3.R")
 # data_access_test()
 ```
 
