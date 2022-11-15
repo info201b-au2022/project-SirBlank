@@ -4,7 +4,6 @@ library(stringr)
 
 library(readr)
 Health_Professional_Shortage_Areas_Primary_Care_by_County_3_ <- read_csv("https://raw.githubusercontent.com/info201b-au2022/project-SirBlank/main/data/Health_Professional_Shortage_Areas__Primary_Care_by_County_3.csv")
-View(Health_Professional_Shortage_Areas_Primary_Care_by_County_3_)
 
 metro_nonmetro_hpsap <- Health_Professional_Shortage_Areas_Primary_Care_by_County_3_ %>% 
   group_by(metro_nonmetro)
