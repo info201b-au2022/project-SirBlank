@@ -35,6 +35,7 @@ working_data_set <- working_data_set %>%
 # Turning medical debt values into integers
 working_data_set <- working_data_set %>%
   mutate(med_medical_debt = as.integer(med_medical_debt))
+# ----- Graph Data
 # Calculate average medical debt for non-metro and metro
 avg_med_debt <- working_data_set %>%
   group_by(metro_nonmetro) %>%
