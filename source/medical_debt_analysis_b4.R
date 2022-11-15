@@ -41,7 +41,7 @@ avg_med_debt <- working_data_set %>%
   group_by(metro_nonmetro) %>%
   summarize(avg_debt = mean(med_medical_debt))
 # Final graph produced
-ggplot(data = avg_med_debt, aes(x = as.factor(metro_nonmetro), 
+disp_med_debt <- ggplot(data = avg_med_debt, aes(x = as.factor(metro_nonmetro), 
                                 y = avg_debt, 
                                 fill = metro_nonmetro)) + 
   geom_bar(stat = "identity") +
