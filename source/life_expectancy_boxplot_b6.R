@@ -44,9 +44,10 @@ nonmetro <- final_final_df%>%
 
 
 
-ggplot(final_final_df, aes(as.factor(x=metro_nonmetro), y=val,fill = metro_nonmetro)) +
+life_expectancy_boxplot <- ggplot(final_final_df, aes(as.factor(x=metro_nonmetro), y=val,fill = metro_nonmetro)) +
   geom_boxplot()+
   xlab("County Designation") +
   ylab("Life expectancy for <1 year old") +
   scale_fill_manual(values = c("blue", "red")) +
   ggtitle("A boxplot that compare life expectancy between metro and nonmetro county")
+
