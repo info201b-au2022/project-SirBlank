@@ -49,5 +49,6 @@ ggplot(data = avg_med_debt, aes(x = as.factor(metro_nonmetro),
   labs(x = "County Designation",
        y = "Average Medical Debt ($)",
        title = "Average Medical Debt in Metro vs Non-Metro Areas",
-       fill = "County Classification")
+       fill = "County Classification") +
+  geom_text(aes(label = round(avg_debt, digits = 2), vjust = -1))
 
