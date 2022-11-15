@@ -29,7 +29,17 @@ final_df <- subset(final_df, select = -c(county_state))
 final_final_df <- filter(final_df, age_name == "<1 year")
 View(final_final_df)
 
+metro <- final_final_df%>%
+  filter(metro_nonmetro == "Metropolitan")%>%
+  summarize(
+    mean_val = mean(val)
+  )
 
+nonmetro <- final_final_df%>%
+  filter(metro_nonmetro == "Nonmetropolitan")%>%
+  summarize(
+    mean_val = mean(val)
+  )
 
 
 
