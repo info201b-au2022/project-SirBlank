@@ -27,6 +27,8 @@ source("../source/aggregate_table_script_b.3.R")
 source("../source/medical_debt_analysis_b4.R")
 source("../source/pie_chart_metro_b5.R")
 source("../source/pie_chart_nonmetro_b5.R")
+source("../source/life_expectancy_boxplot_b6.R")
+
 # data_access_test()
 ```
 
@@ -68,3 +70,14 @@ chart_3_metro
 chart_3_nonmetro
 ```
 The two pie charts are intended to answer our third research question, and to show the relationship between the HPSA, the Health Professional Shortage Area, and metropolitan and nonmetropolitan areas. The chart reveals that in nonmetropolitan areas, 73.46% of the counties are HPSA in the whole county, and 24.15% of the counties are HPSA in part of the county, and only 2.39% is not a health professional shortage area. However, in the metropolitan area, only 47.2% of the counties are HPSA in the whole county, 43.8% of the counties are HPSA in part of the county, and 9% is not a HPSA. From the data, we are able to conclude that the nonmetropolitan area has a higher rate of Health Professional Shortage Area than metropolitan area. 
+
+&nbsp
+&nbsp
+
+## Chart 3: Life expectancy of birth in metropolitan and non-metropolitan areas
+```{r, echo = FALSE}
+life_expectancy_boxplot
+```
+&nbsp 
+The boxplot is intended to answer our first question, which is How does life expectancy differ between metropolitan and non-metropolitan areas? After building the chart, it appears that for metropolitan area, the life expectancy on birth is averagely 80.2, while the number is 79.2. It appears that life expectancy is little higher in metro area than non-metro area. 
+
