@@ -24,7 +24,7 @@ metro_hpsap <- metro_nonmetro_hpsap %>%
 pie_metro_data <- data.frame(
   group = metro_hpsap$value,
   value = metro_hpsap$proportion
-  abels = paste(round(metro_hpsap$proportion, 2), "%")
+  labels = paste(round(metro_hpsap$proportion, 2), "%")
 )
 
 chart_3_metro <- ggplot(pie_metro_data, aes(x="", y = value, fill = group)) +
