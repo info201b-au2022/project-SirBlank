@@ -24,12 +24,13 @@ metro_hpsap <- metro_nonmetro_hpsap %>%
 pie_metro_data <- data.frame(
   group = metro_hpsap$value,
   value = metro_hpsap$proportion
+  abels = paste(round(metro_hpsap$proportion, 2), "%")
 )
 
 chart_3_metro <- ggplot(pie_metro_data, aes(x="", y = value, fill = group)) +
   geom_bar(stat="identity", width=1, color="white") +
-  coord_polar("y", start = 0) +
-  geom_text(aes(y=ypos, label = paste(value, "%"), color = "white", size = 6)) +
+  coord_polar("y", start = 0) + 
+  geom_text(aes(label = labels), position = position_stack(vjust = 0.5)) +
   theme_void()
 
 
