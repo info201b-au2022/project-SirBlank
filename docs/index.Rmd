@@ -25,6 +25,8 @@ knitr::opts_chunk$set(echo = FALSE)
 # then "source" an R file (data_access.R)
 source("../source/aggregate_table_script_b.3.R")
 source("../source/medical_debt_analysis_b4.R")
+source("../source/pie_chart_metro_b5.R")
+source("../source/pie_chart_nonmetro_b5.R")
 # data_access_test()
 ```
 
@@ -58,3 +60,10 @@ disp_med_debt
 This bar chart is intended to clearly help visualize the disparities and the significance of the differences in the financial situation of patients in different county designations, metropolitan or non metropolitan. As we can see in the above bar chart metropolitan areas clearly have lower median amounts of medical debt, lower by approximately 100 dollars. Even though we see a greater median medical debt in non-metropolitan areas, both metropolitan and non-metropolitan counties have fairly high medical debts at 707.90 and 804.23 dollars respectively. This gives us two main insights, first that healthcare is expensive everywhere and second that healthcare in non-metropolitan areas tends to weigh more heavily on the patients in those counties.
 
 ## Chart 2: Proportion of Counties with Health Professional Shortages in Metropolitan and Non-Metropolitan Areas
+  
+## Chart 3: Health Professional Shortage Area in Metropolitan and Non-metropolitan Areas
+```{r, echo = FALSE}
+chart_3_metro
+chart_3_nonmetro
+```
+The two pie charts are intended to answer our third research question, and to show the relationship between the HPSA, the Health Professional Shortage Area, and metropolitan and nonmetropolitan areas. The chart reveals that in nonmetropolitan areas, 73.46% of the counties are HPSA in the whole county, and 24.15% of the counties are HPSA in part of the county, and only 2.39% is not a health professional shortage area. However, in the metropolitan area, only 47.2% of the counties are HPSA in the whole county, 43.8% of the counties are HPSA in part of the county, and 9% is not a HPSA. From the data, we are able to conclude that the nonmetropolitan area has a higher rate of Health Professional Shortage Area than metropolitan area. 
