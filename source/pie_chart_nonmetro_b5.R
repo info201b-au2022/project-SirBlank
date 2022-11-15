@@ -28,5 +28,6 @@ pie_nonmetro_data <- data.frame(
 chart_3_nonmetro <- ggplot(pie_nonmetro_data, aes(x="", y = value, fill = group)) +
   geom_bar(stat="identity", width=1, color="white") +
   ggtitle("Health Professional Shortage Area in Nonmetropolitan") +
+  geom_text(aes(y=ypos, label = paste(value, "%"), color = "white", size = 6)) +
   coord_polar("y", start = 0) +
   theme_void()
