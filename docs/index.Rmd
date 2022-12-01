@@ -150,7 +150,7 @@ This table is grouped by the ten highest percentage of medical debt. Greene Coun
 &nbsp;
 &nbsp;
 
-### Chart 1: Average Medical Debt in Metro and Non-Metropolitan Areas
+### Chart 1: Average Medical Debt in Metro and Non-Metropolitan Areas in 2019
 ```{r, echo = FALSE}
 disp_med_debt
 ```
