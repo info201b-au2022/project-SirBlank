@@ -179,7 +179,7 @@ life_expectancy_boxplot
 ```
 \
 
-The boxplot is intended to answer our first question, which is How does life expectancy differ between metropolitan and non-metropolitan areas? After building the chart, it appears that for metropolitan area, the life expectancy on birth is averagely 80.2, while the number is 79.2. It appears that life expectancy is little higher in metro area than non-metro area. 
+The boxplot is intended to answer our first question, which is How does life expectancy differ between metropolitan and non-metropolitan areas? After building the chart, it appears that for metropolitan area, the life expectancy on birth is averagely 80.2, while the number is 79.2. It appears that life expectancy is little higher in metro area than non-metro area. However, the distribution of data for both metro county and non-metro county are similar, where the 5 numbers of boxplot for non-metro county is slightly lower, the difference is so small that we couldn't tell if the county designation has any effect on life expectancy of kids under age of 1 year old.
   
 
 ### Expected Implications:
