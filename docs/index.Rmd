@@ -1,8 +1,8 @@
+---
 title: The Effects of Unequal Healthcare Resource Distribution on Life Expectancy: A Data Driven Approach
 author: Sunghee Park, Amber Wu, Teerth Mehta, Alex Cao
 date: 11/14/22
 output: html_document
-
 ---
 
 # The Effect of Unequal Healthcare Resource Distribution on Life Expectancy: A Data Driven Approach
